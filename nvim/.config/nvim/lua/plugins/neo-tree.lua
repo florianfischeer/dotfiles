@@ -14,5 +14,6 @@ return {
     },
   config = function()
     vim.keymap.set('n', '<C-p>', ":Neotree filesystem reveal left<CR>", { desc = 'Shows the file tree on the left of the screen' })
+    vim.keymap.set('n', '<C-t>', ":Neotree toggle<CR>", { desc = 'Toggels the filesystem on the left of the screen' })
   end
 }
